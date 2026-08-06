@@ -1,6 +1,6 @@
-- LuigiCube 0.10: Launcher Update -
+- LuigiCube 0.10.8: Launcher Update -
  • Redesigned the launcher
  • Added Luigi News
- • Added Luigi Image
+ • Removed Luigi Image
 - Tip of the day -
 there is none. hah lel
