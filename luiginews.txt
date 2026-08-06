@@ -1,0 +1,3 @@
+- LuigiCube 0.10 -
+ • Redesigned the launcher
+ • Added Luigi News
