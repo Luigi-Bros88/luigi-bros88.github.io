@@ -1,4 +1,4 @@
-- LuigiCube 0.10 - green duovbjv
+- LuigiCube 0.10 Launcher Update -
  • Redesigned the launcher
  • Added Luigi News
  • Added Luigi Image
