@@ -1,5 +1,5 @@
 &a- LuigiCube 0.10.10: BlockEdit -
-&2 • Added NEW BlockEdit commands
+&2Added NEW BlockEdit commands • 
 
 &6- Tip of the Update -
-&eBlockEdit add LuigiCube
+&e/blockedit new LuigiCube
