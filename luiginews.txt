@@ -1,6 +1,5 @@
-&a- LuigiCube 0.10.9: Launcher Update -
-&e • Redesigned the launcher
-&2 • Added Luigi News
-&c • Removed Luigi Image
-&6- Tip of the day -
-&eClassiCube is cool.
+&a- LuigiCube 0.10.10: BlockEdit -
+&2 • Added NEW BlockEdit commands
+
+&6- Tip of the Update -
+&eBlockEdit add LuigiCube
