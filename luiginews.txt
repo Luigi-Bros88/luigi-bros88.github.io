@@ -2,3 +2,5 @@
  • Redesigned the launcher
  • Added Luigi News
  • Added Luigi Image
+- Tip of the day -
+there is none. hah lel
