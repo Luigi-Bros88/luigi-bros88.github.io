@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stare at a Circle</title>
+
+<style>
+	svg {
+		margin: 50px;
+	}
+
+	h1 {
+		color: #0000ff;
+		font-family: "Comic Sans MS";
+	}
+
+	.points {
+		color: #00ff00;
+	}
+
+</style>
+
+</head>
+<body>
+
+<h1>Stare at a circle simulator:</h1>
+
+<hr>
+
+<svg>
+	<circle cx="50" cy="50" r="50" fill="#00ff00" />
+</svg>
+
+<hr>
+
+<h1>Points:</h1><h1 id="points" class="points">0</h1>
+
+<hr>
+
+<h1>Highscore:</h1>
+<h1 id="high" class="points">0</h1>
+
+<hr>
+
+<script>
+let points = 0;
+
+let highscore = parseInt(localStorage.getItem("circlegamehighscore")) || 0;
+
+document.getElementById("high").innerText = highscore;
+
+function increase() {
+	points++;
+	document.getElementById("points").innerText = points;
+
+	if (points > highscore) {
+		highscore = points;
+		document.getElementById("high").innerText = highscore;
+		localStorage.setItem("circlegamehighscore", highscore);
+	}
+}
+
+setInterval(increase, 1000);
+</script>
+
+</body>
+</html>
